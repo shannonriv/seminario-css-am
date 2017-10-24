@@ -1,0 +1,103 @@
+/*setear mi css*/
+
+body {
+    box-sizing: border-box;  
+    color: #303030;    
+    font-family: 'Raleway', sans-serif;    
+    margin: 0;
+    padding: 0;
+}
+
+/*clases reutilizables*/
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+/*clases específicas*/
+
+li a {
+    color: inherit;    
+    text-decoration: none;
+}
+
+li:hover {
+    color: #db964a;
+}
+
+ul li {
+    display: inline;
+    margin: 5px;
+    list-style: none;
+}
+
+.logo-header {
+    width: 200px;
+}
+
+header {
+    position: relative;
+}
+
+nav {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.box-header {
+    display: inline-block;
+}
+
+.logo-square {
+    width: 100px;
+}
+
+/*
+.logo-square img {
+    width: 100%;
+}¨
+*/
+
+section {
+    text-align: center;
+
+}
+
+div {
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 5px;
+    width: 33%;
+    
+}
+
+[class^="icon-"], [class*="icon-"] {
+    font-size: 40px;
+    transition: 3s;
+}
+
+[class^="icon-"]:hover, [class*="icon-"]:hover {
+    color: #db964a;
+}
+
+footer {
+    background-color: #303030;
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+
+.btn {
+    background-color: #db964a;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-family: inherit;
+    padding: 10px;
+}
+
+.btn:hover {
+    background-color: #644721;
+}
